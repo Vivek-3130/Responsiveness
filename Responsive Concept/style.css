@@ -1,0 +1,14 @@
+.box{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: crimson;
+}
+/* Mtlb 600px tak hi ye properties kaam kregi */
+@media (max-width:600px) {
+    .box{
+        background-color: blueviolet;
+        border-radius: 10px;
+        border-style: dotted;
+    }
+}
